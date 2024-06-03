@@ -6,7 +6,8 @@
 div{
     border-style: solid;
     border-width: 2px;
-    padding: 5px;
+    padding: 10px;
+    gap: 5px;
 }
 
 .banner{
@@ -44,4 +45,21 @@ div{
     max-width: 33%;
     min-width: 30%;
     margin: auto;
+}
+
+.project-banner{ 
+    display: flex;
+    flex-direction: row;
+}
+
+.project-title{
+    flex-grow: 1;
+}
+
+.task-container{
+    flex-direction: row;
+}
+
+.task-text{
+    flex-grow: 1;
 }
