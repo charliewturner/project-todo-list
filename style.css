@@ -73,4 +73,6 @@ div{
 dialog{
  position: relative;
  margin: auto;
+ max-width: 800px;
+ width: 70%;
 }
