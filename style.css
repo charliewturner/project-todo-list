@@ -1,6 +1,8 @@
 
 *{
     flex-direction: column;
+    border-radius: 9px;
+    margin: 2px;
 }
 
 div{
@@ -65,4 +67,10 @@ div{
 
 .task-text{
     flex-grow: 1;
+}
+
+
+dialog{
+ position: relative;
+ margin: auto;
 }
