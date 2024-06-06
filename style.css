@@ -76,3 +76,9 @@ dialog{
  max-width: 800px;
  width: 70%;
 }
+
+.button-close{
+  display: block;
+  line-height: 3em;
+  
+}
