@@ -77,7 +77,7 @@ dialog{
  width: 70%;
 }
 
-.button-close{
+button{
   display: block;
   line-height: 3em;
 
