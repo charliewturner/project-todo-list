@@ -2,7 +2,7 @@
 *{
     flex-direction: column;
     border-radius: 9px;
-    margin: 2px;
+    /* margin: 2px; */
 }
 
 div{
@@ -80,5 +80,43 @@ dialog{
 .button-close{
   display: block;
   line-height: 3em;
+
+}
+
+.task-list-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
   
+}
+
+.task-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.editable{
+    display: inline-block;
+    width: 80%;
+}
+
+.new-task{
+    width: min-content;
+    
+    
+}
+
+.checkbox{
+    display: inline;
+    width: 10px;
+}
+
+.remove-task{
+    display: inline;
+    width: 10px;
 }
