@@ -1,122 +1,121 @@
-
-*{
+* {
     flex-direction: column;
     border-radius: 9px;
     /* margin: 2px; */
 }
 
-div{
+div {
     border-style: solid;
     border-width: 2px;
     padding: 10px;
     gap: 5px;
-} 
-
-.banner{
-   width: 100%;
-   flex-direction: row;
-   display: flex;
 }
 
-.banner > *{
+.banner {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+}
+
+.banner>* {
     flex-grow: 1;
 }
 
-.spacer{
+.spacer {
     width: 70%;
 }
 
-.title{
+.title {
     font-weight: 1000;
-    
+
 }
 
-.upper{
-   height: 150px;
-   
+.upper {
+    height: 150px;
+
 }
 
-.main-selection{
+.main-selection {
     height: 150px;
 }
 
-.projects-container{
+.projects-container {
     display: flex;
     flex-direction: row;
 }
 
-.projects-container > *{
+.projects-container>* {
     max-width: 33%;
     min-width: 30%;
     margin: auto;
-    
+
 }
 
-.project-banner{ 
+.project-banner {
     display: flex;
     flex-direction: row;
 }
 
-.project-title{
+.project-title {
     flex-grow: 1;
 }
 
-.task-container{
+.task-container {
     flex-direction: row;
 }
 
-.task-text{
+.task-text {
     flex-grow: 1;
 }
 
 
-dialog{
- position: relative;
- margin: auto;
- max-width: 800px;
- width: 70%;
+dialog {
+    position: relative;
+    margin: auto;
+    max-width: 800px;
+    width: 70%;
 }
 
-button{
-  display: block;
-  line-height: 3em;
+button {
+    display: block;
+    line-height: 3em;
 
 }
 
-.task-list-container{
+.task-list-container {
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-  
+
 }
 
-.task-container{
+.task-container {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    
+
 }
 
-.editable{
+.editable {
     display: inline-block;
     width: 80%;
 }
 
-.new-task{
+.new-task {
     width: min-content;
-    
-    
+
+
 }
 
-.checkbox{
+.checkbox {
     display: inline;
     width: 10px;
 }
 
-.remove-task{
+.remove-task {
     display: inline;
     width: 10px;
 }
