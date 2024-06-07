@@ -99,6 +99,10 @@ button {
 
 }
 
+.project-title[placeholder]:empty:before{
+    content: attr(placeholder);
+    color: #555;
+}
 .editable {
     display: inline-block;
     width: 80%;
